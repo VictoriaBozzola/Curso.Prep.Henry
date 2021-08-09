@@ -9,17 +9,19 @@ function crearUsuario() {
   // Devuelve la clase (pide especificamente devolver la clase, por eso ponemos al final RETURN USUARIO)
   // Tu código:
                     //El objeto que recibe y dentro de la funcion hay que llamarlo también
-  function Usuario (opciones) {
+  class Usuario {
+    constructor(opciones) {
       this.usuario = opciones.usuario;
       this.nombre = opciones.nombre;
       this.email = opciones.email;
       this.password = opciones.password;
 
+    }
+    saludar() {
+      return 'Hola, mi nombre es ' + this.nombre;
+    }
   }
 
-  Usuario.prototype.saludar = function(){
-    return 'Hola, mi nombre es ' + this.nombre;
-  }
 
 return Usuario;
 
@@ -89,7 +91,7 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
-  var nuevo = new Persona ('Juan','Perez',22,'Saavedra 123');
+  var nuevo = new Persona (nombre,apellido,edad,dir);
   return nuevo;
 }
   
