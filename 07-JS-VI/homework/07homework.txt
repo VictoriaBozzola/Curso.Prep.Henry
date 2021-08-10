@@ -1,0 +1,17 @@
+Las funciones CallBacks Es una forma de que una funcion se pueda utilizar como argemento de otra. Es decir, 
+que lo que haga una función se pueda utilizar en otra cuando la llamemos. 
+Los CALL BACKS se pueden usar con arreglos. 
+
+Uno de ellos es .forEach como una especie de bucle for. Ejecuta la función indicada una vez por cada elemento array.
+En este caso no convierte nada, solo se usa para recorrer el array.
+
+Luego tenemos .map, es muy parecido al anterior sólo que éste si devuelve algo. Utilizaremos esta forma para 
+recorrer los datos que tenemos en el arreglo y modificarlos por cada uno que exista. Ej: Modificar los datos 
+al doble de su valor.
+
+También tenemos .reduce, esta forma se utiliza para acumular todos los elementos y que sólo quede un dato. Ej:
+Sumar todos los datos que tenemos y quedarnos con el resultado. Puede ser otro ejemplo el de tener varias 
+palabras y juntarlas para armar una frase. 
+
+.filter es para filtrar los datos y obtener el que queremos. Si tenemos una caja con datos numericos y solo
+quieres quedarte con los pares, puedes hacerlo con este CB. 
