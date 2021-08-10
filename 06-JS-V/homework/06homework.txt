@@ -1,0 +1,6 @@
+CONSTRUCTORS son funciones que se arman como clases para que otros objetos hereden sus mismas caracteristicas.
+Son muy parecidos a los objetos solo que se pueden hacer otras cosas más. En vez  de hacer 5 objetos 
+con los mismos datos (nombre, apellido, edad, etc) hacemos uno y se los compartimos. 
+
+Si queremos agregarle un método (una función dentro de una propiedad) a la clase lo llamamos si o si con un
+PROTOTIPO.
