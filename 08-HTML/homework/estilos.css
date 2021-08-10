@@ -1,0 +1,51 @@
+h1{
+    color: rgb(88, 83, 83);
+}
+
+
+img{
+    width: 400px;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+    
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(88, 83, 83);
+    padding: 50px;
+    border: solid 5px;
+    border-color: white;
+    border-style: double;
+    margin: 1em auto;
+
+}
+
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+.contenedor {
+    background-color:rgb(245, 219, 185);
+    margin: 1em auto;
+    max-width: 1000px;
+    padding: 1em;
+    
+}
+
+body{
+    background-image: url(img/arroz.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+h3{
+    font-size: 40px;
+}
