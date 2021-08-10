@@ -1,0 +1,16 @@
+FOR es un código que hace que se repitan varias veces una indicación que quieras asignarle. Este mismo
+va incrementandose paso a paso hasta llegar al limite que le brindes. Se utiliza para correr cierta cantidad 
+de números. Ej: Recorrer los numeros del 1 al 100, con FOR te ahorrarias varios pasos para hacerlo.
+
+&& Cuando tenes una condición donde necesitas un resutlado true o false, cuando usamos && (Y) necesitas que 
+ambas condiciones comparadas sean verdaderas, en el caso contrario, si alguna de las dos es falsa o ambas, 
+devuelve false. Acá podemos poner el ejemplo de que tu mamá te de una condición para salir con tus amigos, 
+la condición para salir es que limpies los platos Y tu cuarto, si no cumples con alguna de las dos no te va
+a dejar ir. 
+
+|| Al usar || (OR) solo se necesita que alguno de los dos de verdadero para que la condicion sea true. 
+Sólo devuelve false si ambas son falsas. Es como si tengas que elegir entre un juguete u otro, cualquiera que
+elijas te vas a quedar con alguno de los dos.
+
+! (NOT) revierte el valor booleano de cada condición. Retomando el ejemplo de la condición de la madre, 
+al ponerle NOT la condicion para salir sería no hacer ninguna de las dos cosas que te mandó a hacer. 
