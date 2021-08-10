@@ -1,0 +1,5 @@
+Arrays es otro tipo de bolsa parecida al var que tiene datos dentro, la diferencia es que en éste puede tener
+varios datos de todo tipo en uno solo. 
+Cada elemento tiene un "numero de seguimiento", arrancando del 0 hasta la cantidad de elementos que tengas 
+dentro. De esa caja con el numero de seguimiento se puede sacar o agregar mas elementos. Si queremos podemos
+agregar esos elementos que tenemos a una nueva caja para organizarlo mejor. 
