@@ -1,0 +1,44 @@
+Los OBJETOS son otra forma de acumular datos para organizarlos mejor. Si tenemos una persona ya podemos guardar
+dentro de él su nombre, apellido, edad, nacionalidad, etc. 
+
+Dentro de los objetos tenemos las PROPIEDADES que son nombres que se les asignan a cada dato para identificarlos
+mas rápido. Ej: propiedad nombre: 'Juan', propiedad apellido: 'Lorenzo', propiedad edad: 22. 
+
+Los METODOS son las funciones que hay dentro de las propiedades para que haga algún tipo de acción
+y devuelva un resultado (un valor).
+
+El bucle FOR...IN, es parecido a for, solo que for se utiliza para números. FOR IN se puede utilizar para 
+recorrer todo el objeto con sus propiedades y datos dentro. for (LET clave IN usuario)
+
+NOTACIÓN DE PUNTO y NOTACIÓN DE CORCHETE son dos formas de acceder a una propiedad especifica de un objeto.
+Si queremos acceder a una propiedad del objeto podemos acceder con un punto o corchete. Ej:
+
+var persona = {
+    nombre: 'Juanito';
+    edad: 20,
+    amigos en facebook: 200,
+
+}
+
+persona.nombre // 'Juanito'
+persona['nombre'] // 'Juanito'
+
+El corchete puede acceder a caracteres no permitidos. Ej:
+persona['amigos en facebook'];
+
+Esto con . no podemos realizar. Ej no válido:
+persona.amigos de facebook    //Los espacios no los toma. 
+
+Si tenemos un objeto dentro de otro objeto también nos conviene utilizar los corchetes. Ej:
+
+var persona {
+    nombre: 'Juanito',
+    edad: 20,
+    amigos: {
+        amigo1: 'Leo',
+        amigo2: 'Lili',
+        amigo3: 'Gladis',
+    }
+}
+
+return persona['amigos']['amigo3'];
