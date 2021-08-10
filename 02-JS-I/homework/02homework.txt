@@ -1,0 +1,29 @@
+Las VARIABLES son bolsitas que dentro guardan tipos de datos para transportar y usar mas tarde. 
+Dentro de ella se pueden guardar numeros, palabras, letras, entre otros. 
+La variables como var pueden ser modificadas luego.
+La variable let solo se puede utilizar dentro del bloque donde la asignemos. Si esa variable está dentro de 
+una caja, no se puede sacar ni utilizar fuera de esa caja.
+La variable const no puede modificarse. Es constante su valor.
+
+
+Las STRINGS son palabras, letras o frases que deben ir entre comillas para que funcionen. Por ejemplo: 
+'Hola, soy Victoria' o 'Mi numero es 15 2727 5653', en la ultima hay números pero son tomados como caracteres,
+no se puede hacer calculos matematicos con esos numeros porque estan dentro de una misma frase.
+
+Las FUNCIONES se utilizan para calcular u obtener algún tipo de resultado con esas variables que mencionamos 
+anteriormente. Por ejemplo, si tienes:
+var a = 12;
+var b = 8;
+
+Dentro de la función puedes calcular a + b y que RETORNE un resultado. 
+RETURN hace que el resultado escape de la caja función que encierra el calculo y de esta forma, la función
+se detiene. Entonces RETURN sería donde termina la función y devuelve un resultado.
+
+Las declaraciones IF son aquellas que puedes comparar, por ejemplo, una variable con un dato para entrar a la
+posibilidad de modificarlos solo si cumplen x requisito (condición). 
+Ej: Si tienes papelitos escritos con nombres en una caja y sólo quieres agarrar la aquellos que tienen la 
+letra 'M' para sumarlos, puedes hacerlo con if. 
+
+Los Valores BOOLEANOS son el verdadero y falso. Suelen utilizarse para saber si una condición if se cumple 
+devuelve true y entra a la sección de modificación. Si no cumple devuelve false y puede que no haga nada o
+entre a otro grupo de modificación. 
